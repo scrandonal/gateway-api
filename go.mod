@@ -16,7 +16,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	golang.org/x/net v0.21.0 // indirect; bumped from v0.20.0 to address CVE-2023-44487 and pick up latest patches
+	golang.org/x/net v0.23.0 // indirect; bumped from v0.21.0 to address CVE-2023-45288 (HTTP/2 header handling)
 	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
