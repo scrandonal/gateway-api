@@ -30,3 +30,5 @@ require (
 // Personal fork notes:
 // - Tracking upstream kubernetes-sigs/gateway-api for learning purposes
 // - golang.org/x/net pinned at v0.23.0 due to CVE-2023-45288; do not downgrade
+// - golang.org/x/text pinned at v0.14.0; upgrade to v0.15.0+ when k8s deps allow
+// - TODO: revisit k8s deps when upstream bumps to v0.30.x
