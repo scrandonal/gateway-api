@@ -26,3 +26,7 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
+
+// Personal fork notes:
+// - Tracking upstream kubernetes-sigs/gateway-api for learning purposes
+// - golang.org/x/net pinned at v0.23.0 due to CVE-2023-45288; do not downgrade
